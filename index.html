@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#f8fafb" name="theme-color"/>
+<meta content="Kai Yui Man (Karl) — robotics and AI researcher interested in data-efficient robot learning, contact-aware manipulation, and rapid adaptation." name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="Kai Yui Man | Robot Learning" property="og:title"/>
+<meta content="Research in data-efficient robot learning, generalisable manipulation, and rapid adaptation." property="og:description"/>
+<title>Kai Yui Man | Robot Learning &amp; Manipulation</title>
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+<nav aria-label="Main navigation" class="nav container">
+<a aria-label="Kai Yui Man, home" class="brand" href="#top">
+<span aria-hidden="true" class="brand-mark">KM</span>
+<span class="brand-name" data-site-text="personal.name">Kai Yui Man</span>
+</a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Open navigation menu" class="nav-toggle" type="button">
+<span></span><span></span><span></span>
+</button>
+<div class="nav-links" id="nav-links">
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+<a class="nav-cv" href="assets/Kai_Yui_Man_CV.pdf" rel="noopener noreferrer" target="_blank">CV <span aria-hidden="true">↗</span></a>
+</div>
+</nav>
+</header>
+
+<main id="main">
+<section aria-labelledby="hero-heading" class="hero container" id="about">
+<div class="hero-content">
+<div class="eyebrow"><span class="eyebrow-line"></span> ROBOT LEARNING · MANIPULATION · ADAPTATION</div>
+<h1 data-site-text="personal.headline" id="hero-heading">Building robots that <em>learn more from less.</em></h1>
+<p class="hero-description" data-site-text="personal.bio">Hi, I'm <strong>Kai Yui Man (Karl)</strong>. I recently completed MSc studies in Robotics and Artificial Intelligence at UCL. I'm interested in how robots can learn reusable skills from limited experience and adapt to new environments.</p>
+<div class="hero-actions">
+<a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
+<a class="button button-secondary" href="assets/Kai_Yui_Man_CV.pdf" rel="noopener noreferrer" target="_blank">View CV <span aria-hidden="true">↓</span></a>
+</div>
+<div class="hero-meta" data-site-text="personal.availability"><span aria-hidden="true" class="status-dot"></span> London, UK <span aria-hidden="true" class="meta-divider">·</span> Exploring 2027 PhD and research opportunities</div>
+</div>
+<aside aria-labelledby="focus-heading" class="focus-card">
+<div class="focus-topline"><span class="small-caps">RESEARCH FOCUS</span><span class="index-number">01 / 03</span></div>
+<h2 data-site-text="personal.focusTitle" id="focus-heading">Generalisation from limited experience</h2>
+<p data-site-text="personal.focusBody">Learning useful task knowledge and reusing it where the robot has not trained before.</p>
+<div aria-label="Limited experience leads to reusable skills, then rapid adaptation in new settings" class="focus-flow">
+<div><span class="flow-step">01</span><span>Limited experience</span></div>
+<div aria-hidden="true" class="flow-line"></div>
+<div><span class="flow-step">02</span><span>Reusable task skills</span></div>
+<div aria-hidden="true" class="flow-line"></div>
+<div><span class="flow-step">03</span><span>Generalise &amp; adapt</span></div>
+</div>
+<span class="focus-note">Research interests · methods under investigation</span>
+</aside>
+</section>
+<section aria-labelledby="research-heading" class="section container" id="research">
+<div class="section-header">
+<div><p class="section-kicker">01 — RESEARCH</p><h2 id="research-heading">Research &amp; interests</h2></div>
+<p class="section-description">From contact-aware action generation to data-efficient, adaptable robot skills.</p>
+</div>
+<article class="featured-research">
+<div class="featured-main">
+<div class="research-tags"><span>MSC DISSERTATION</span><span>REAL-ROBOT EXTENSION ONGOING</span></div>
+<h3 data-site-text="research.title">Force-Conditioned Flow Matching for Contact-Aware Robot Action Generation</h3>
+<p data-site-text="research.summary1">I investigated how visual observations, proprioception, and temporal force feedback can inform generative robot action policies. The study compared several force-conditioning mechanisms, including AdaLN, cross-attention, prefix–suffix conditioning, and dual-path force attention.</p>
+<p data-site-text="research.summary2">In simulation, force feedback improved performance across weight discrimination, door manipulation, and precision insertion tasks. The work is now being extended towards experiments with a Franka robot.</p>
+<div class="research-footer"><span data-site-text="research.affiliation">UCL · Supervisor: Dr Valerio Modugno</span><span class="research-period">2026 — ongoing</span></div>
+</div>
+<div aria-label="Conceptual data flow: visual, proprioceptive and force observations condition a flow-matching policy that generates robot actions" class="research-visual" role="img">
+<p class="visual-label">CONCEPTUAL OVERVIEW</p>
+<div class="signal-row"><span>Vision</span><span>Proprioception</span><span>Force history</span></div>
+<div aria-hidden="true" class="visual-connector"><i></i><i></i><i></i></div>
+<div class="policy-box">Flow-matching policy</div>
+<div aria-hidden="true" class="visual-arrow">↓</div>
+<div class="action-box">Robot action sequence</div>
+<p class="visual-caption">Illustrative overview, not a final architecture diagram.</p>
+</div>
+</article><section aria-labelledby="simulations-heading" class="simulation-gallery" id="simulations">
+<div class="simulations-heading">
+<div>
+<p class="small-caps">SIMULATION DEMONSTRATIONS</p>
+<h3 id="simulations-heading">Force2Act in simulation</h3>
+</div>
+<p class="simulations-intro">Short clips from manipulation experiments. These illustrate trajectories, not comparisons between policies.</p>
+</div>
+<div class="simulation-grid" id="simulation-grid"></div>
+<p class="simulations-disclaimer">Simulation footage only · Real-robot validation is ongoing · Videos do not independently establish comparative performance.</p>
+</section>
+
+<div class="research-next">
+<div class="research-next-head">
+<span class="small-caps">LOOKING AHEAD</span>
+<h3 data-site-text="future.title">Learning generalisable skills from limited experience</h3>
+<p data-site-text="future.summary">My broader research interest is how a robot can reuse task knowledge in unfamiliar environments, and improve through a small number of new interactions when zero-shot generalisation is insufficient.</p>
+</div>
+<div class="approach-grid">
+<div class="approach">
+<div class="approach-numeral">01</div>
+<h4 data-site-text="future.path1Title">Learning reusable knowledge</h4>
+<p data-site-text="future.path1Body">Exploring how limited but informative demonstrations might reveal task-relevant structure across settings.</p>
+</div>
+<div class="approach">
+<div class="approach-numeral">02</div>
+<h4 data-site-text="future.path2Title">Rapid policy adaptation</h4>
+<p data-site-text="future.path2Body">Investigating how interaction feedback might enable efficient specialisation to a new environment.</p>
+</div>
+</div>
+<p class="next-note">These are research directions I hope to investigate, not claims of completed results.</p>
+</div>
+</section>
+<section aria-labelledby="experience-heading" class="section section-alt" id="experience">
+<div class="container">
+<div class="section-header">
+<div><p class="section-kicker">02 — BACKGROUND</p><h2 id="experience-heading">Experience &amp; education</h2></div>
+<p class="section-description">Experience connecting machine learning methods to real-world systems.</p>
+</div>
+<div class="timeline-grid">
+<div>
+<h3 class="group-heading">Experience</h3>
+
+
+
+<div id="experience-list"></div></div>
+<div>
+<h3 class="group-heading">Education</h3>
+
+
+<div id="education-list"></div></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="projects-heading" class="section container" id="projects">
+<div class="section-header">
+<div><p class="section-kicker">03 — PROJECTS</p><h2 id="projects-heading">Selected projects</h2></div>
+<p class="section-description">A few examples of applied machine learning and robotics work.</p>
+</div>
+<div class="project-grid" id="project-grid"></div>
+</section>
+<section aria-labelledby="contact-heading" class="contact-section" id="contact">
+<div class="container contact-inner">
+<div><p class="section-kicker">04 — CONTACT</p><h2 id="contact-heading">Let's connect.</h2><p data-site-text="contact.message">I'm interested in research conversations and potential collaboration in robot learning, manipulation and adaptation.</p></div>
+<div class="contact-actions"><a class="button button-light" href="mailto:mkykarl517@gmail.com?subject=Research%20enquiry">Email me <span aria-hidden="true">↗</span></a><div class="social-links"><a href="https://github.com/Yu1man" rel="noopener noreferrer" target="_blank">GitHub ↗</a><a href="https://www.linkedin.com/in/karl-man" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a><a href="assets/Kai_Yui_Man_CV.pdf" rel="noopener noreferrer" target="_blank">CV ↗</a></div></div>
+</div>
+</section>
+</main>
+<footer class="footer container"><span>© <span id="year">2026</span> Kai Yui Man</span><span>Built simply, with no analytics or tracking.</span><a href="#top">Back to top ↑</a></footer>
+<script defer="True" src="site-content.js"></script><script defer="" src="script.js"></script>
+</body>
+</html>
