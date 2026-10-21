@@ -40,7 +40,10 @@
 <div class="hero-content">
 <div class="eyebrow"><span class="eyebrow-line"></span> ROBOT LEARNING · MANIPULATION · ADAPTATION</div>
 <h1 data-site-text="personal.headline" id="hero-heading">Building robots that <em>learn more from less.</em></h1>
+<div class="hero-intro">
+<div class="profile-photo-frame"><img class="profile-photo" src="assets/profile.jpg" data-site-image="personal.photo" alt="Portrait of Kai Yui Man" width="112" height="112" decoding="async"/></div>
 <p class="hero-description" data-site-text="personal.bio">Hi, I'm <strong>Kai Yui Man (Karl)</strong>. I recently completed MSc studies in Robotics and Artificial Intelligence at UCL. I'm interested in how robots can learn reusable skills from limited experience and adapt to new environments.</p>
+</div>
 <div class="hero-actions">
 <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
 <a class="button button-secondary" href="assets/Kai_Yui_Man_CV.pdf" rel="noopener noreferrer" target="_blank">View CV <span aria-hidden="true">↓</span></a>
@@ -64,12 +67,13 @@
 <section aria-labelledby="research-heading" class="section container" id="research">
 <div class="section-header">
 <div><p class="section-kicker">01 — RESEARCH</p><h2 id="research-heading">Research &amp; interests</h2></div>
-<p class="section-description">From contact-aware action generation to data-efficient, adaptable robot skills.</p>
+<!-- <p class="section-description">From contact-aware action generation to data-efficient, adaptable robot skills.</p> -->
 </div>
 <article class="featured-research">
 <div class="featured-main">
 <div class="research-tags"><span>MSC DISSERTATION</span><span>REAL-ROBOT EXTENSION ONGOING</span></div>
 <h3 data-site-text="research.title">Force-Conditioned Flow Matching for Contact-Aware Robot Action Generation</h3>
+<p class="research-subtitle" data-site-text="research.subtitle"></p>
 <p data-site-text="research.summary1">I investigated how visual observations, proprioception, and temporal force feedback can inform generative robot action policies. The study compared several force-conditioning mechanisms, including AdaLN, cross-attention, prefix–suffix conditioning, and dual-path force attention.</p>
 <p data-site-text="research.summary2">In simulation, force feedback improved performance across weight discrimination, door manipulation, and precision insertion tasks. The work is now being extended towards experiments with a Franka robot.</p>
 <div class="research-footer"><span data-site-text="research.affiliation">UCL · Supervisor: Dr Valerio Modugno</span><span class="research-period">2026 — ongoing</span></div>
@@ -77,7 +81,6 @@
 <div aria-label="Conceptual data flow: visual, proprioceptive and force observations condition a flow-matching policy that generates robot actions" class="research-visual" role="img">
 <p class="visual-label">CONCEPTUAL OVERVIEW</p>
 <div class="signal-row"><span>Vision</span><span>Proprioception</span><span>Force history</span></div>
-<div aria-hidden="true" class="visual-connector"><i></i><i></i><i></i></div>
 <div class="policy-box">Flow-matching policy</div>
 <div aria-hidden="true" class="visual-arrow">↓</div>
 <div class="action-box">Robot action sequence</div>
@@ -89,7 +92,7 @@
 <p class="small-caps">SIMULATION DEMONSTRATIONS</p>
 <h3 id="simulations-heading">Force2Act in simulation</h3>
 </div>
-<p class="simulations-intro">Short clips from manipulation experiments. These illustrate trajectories, not comparisons between policies.</p>
+<!-- <p class="simulations-intro">Short clips from manipulation experiments. These illustrate trajectories, not comparisons between policies.</p> -->
 </div>
 <div class="simulation-grid" id="simulation-grid"></div>
 <p class="simulations-disclaimer">Simulation footage only · Real-robot validation is ongoing · Videos do not independently establish comparative performance.</p>
@@ -120,7 +123,7 @@
 <div class="container">
 <div class="section-header">
 <div><p class="section-kicker">02 — BACKGROUND</p><h2 id="experience-heading">Experience &amp; education</h2></div>
-<p class="section-description">Experience connecting machine learning methods to real-world systems.</p>
+<!-- <p class="section-description">Experience connecting machine learning methods to real-world systems.</p> -->
 </div>
 <div class="timeline-grid">
 <div>
@@ -140,18 +143,18 @@
 <section aria-labelledby="projects-heading" class="section container" id="projects">
 <div class="section-header">
 <div><p class="section-kicker">03 — PROJECTS</p><h2 id="projects-heading">Selected projects</h2></div>
-<p class="section-description">A few examples of applied machine learning and robotics work.</p>
+<!-- <p class="section-description">A few examples of applied machine learning and robotics work.</p> -->
 </div>
 <div class="project-grid" id="project-grid"></div>
 </section>
 <section aria-labelledby="contact-heading" class="contact-section" id="contact">
 <div class="container contact-inner">
 <div><p class="section-kicker">04 — CONTACT</p><h2 id="contact-heading">Let's connect.</h2><p data-site-text="contact.message">I'm interested in research conversations and potential collaboration in robot learning, manipulation and adaptation.</p></div>
-<div class="contact-actions"><a class="button button-light" href="mailto:mkykarl517@gmail.com?subject=Research%20enquiry">Email me <span aria-hidden="true">↗</span></a><div class="social-links"><a href="https://github.com/Yu1man" rel="noopener noreferrer" target="_blank">GitHub ↗</a><a href="https://www.linkedin.com/in/karl-man" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a><a href="assets/Kai_Yui_Man_CV.pdf" rel="noopener noreferrer" target="_blank">CV ↗</a></div></div>
+<div class="contact-actions"><a class="button button-light" href="mailto:mkykarl517@gmail.com?subject=Research%20enquiry">Email me <span aria-hidden="true">↗</span></a><div class="social-links"><a data-site-link="links.github" href="https://github.com/Yu1man" rel="noopener noreferrer" target="_blank">GitHub ↗</a><a data-site-link="links.linkedin" href="https://www.linkedin.com/in/karl-man" rel="noopener noreferrer" target="_blank">LinkedIn ↗</a><a href="assets/Kai_Yui_Man_CV.pdf" rel="noopener noreferrer" target="_blank">CV ↗</a></div></div>
 </div>
 </section>
 </main>
-<footer class="footer container"><span>© <span id="year">2026</span> Kai Yui Man</span><span>Built simply, with no analytics or tracking.</span><a href="#top">Back to top ↑</a></footer>
+<footer class="footer container"><span>© <span id="year">2026</span> Kai Yui Man</span><a href="#top">Back to top ↑</a></footer>
 <script defer="True" src="site-content.js"></script><script defer="" src="script.js"></script>
 </body>
 </html>

@@ -12,6 +12,8 @@
 window.siteContent = {
   personal: {
     name: "Kai Yui Man",
+    // Replace this path if you want a different profile photograph.
+    photo: "assets/profile.jpg",
     // The text before and after the green emphasis in the headline.
     headline: "Building robots that|learn more from less.",
     bio: "Hi, I'm Kai Yui Man (Karl). I recently completed MSc studies in Robotics and Artificial Intelligence at UCL. I'm interested in how robots can learn reusable skills from limited experience and adapt to new environments.",
@@ -20,8 +22,9 @@ window.siteContent = {
     focusBody: "Learning useful task knowledge and reusing it where the robot has not trained before."
   },
 
-  research: {
-    title: "Force-Conditioned Flow Matching for Contact-Aware Robot Action Generation",
+ research: {
+    title: "Force2Act",
+    subtitle: "Force-Conditioned Flow Matching for Contact-Aware Robot Action Generation",
     summary1: "I investigated how visual observations, proprioception, and temporal force feedback can inform generative robot action policies. The study compared several force-conditioning mechanisms, including AdaLN, cross-attention, prefix–suffix conditioning, and dual-path force attention.",
     summary2: "In simulation, force feedback improved performance across weight discrimination, door manipulation, and precision insertion tasks. The work is now being extended towards experiments with a Franka robot.",
     affiliation: "UCL · Supervisor: Dr Valerio Modugno"
@@ -49,7 +52,7 @@ window.siteContent = {
 
   // To add a project: copy one { ... } item and edit its fields.
   projects: [
-    { category: "VISION–LANGUAGE MODELS", year: "2025", title: "It's Lolly · Service Robot VLM", description: "Industry-linked VLM project exploring 7B-model optimisation for on-robot inference and integration of visual understanding with dialogue and service APIs.", tools: "Vision–language models · Edge AI · API integration" },
+    { category: "VISION–LANGUAGE MODELS", year: "2025-26", title: "It's Lolly · Service Robot VLM", description: "Industry-linked VLM project exploring 7B-model optimisation for on-robot inference and integration of visual understanding with dialogue and service APIs.", tools: "Vision–language models · Edge AI · API integration" },
     { category: "COMPUTER VISION", year: "2024–25", title: "British Sign Language recognition", description: "Designed a real-time YOLO-based recognition system, compared model variants, and integrated the selected model into an interactive web application.", tools: "Python · YOLO · OpenCV · Django" },
     { category: "REINFORCEMENT LEARNING", year: "2024", title: "Robotic arm reaching", description: "Trained and evaluated a simulated arm-reaching policy, exploring continuous control, reward design and experimental evaluation.", tools: "Panda-Gym · Stable-Baselines3 · Python" }
   ],
@@ -61,6 +64,12 @@ window.siteContent = {
     { title: "Object manipulation", description: "Simulated object pickup and transfer sequence.", video: "assets/videos/object-transfer.mp4", poster: "assets/videos/object-transfer-poster.webp" },
     { title: "Articulated manipulation", description: "Simulated interaction with an articulated object.", video: "assets/videos/door-manipulation.mp4", poster: "assets/videos/door-manipulation-poster.webp" }
   ],
+
+  // Edit your social links here. Use the full URL copied from your LinkedIn profile.
+  links: {
+    github: "https://github.com/Yu1man",
+    linkedin: "https://www.linkedin.com/in/karl-man-446462267"
+  },
 
   contact: {
     message: "I'm interested in research conversations and potential collaboration in robot learning, manipulation and adaptation."

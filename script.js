@@ -14,6 +14,16 @@ function readField(path) {
   return path.split('.').reduce((obj, field) => obj && obj[field], content);
 }
 
+// Image sources and social profile URLs can also be edited in site-content.js.
+document.querySelectorAll('[data-site-image]').forEach(node => {
+  const path = readField(node.dataset.siteImage);
+  if (typeof path === 'string' && path.trim()) node.src = path;
+});
+document.querySelectorAll('[data-site-link]').forEach(node => {
+  const url = readField(node.dataset.siteLink);
+  if (typeof url === 'string' && /^https:\/\//i.test(url)) node.href = url;
+});
+
 // Update the textual parts of the page using one easy-to-edit file.
 document.querySelectorAll('[data-site-text]').forEach(node => {
   const key = node.dataset.siteText;
