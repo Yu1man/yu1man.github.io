@@ -218,3 +218,11 @@ body{background:white}
 .simulations-disclaimer{font-size:10px;color:#758a92;margin:18px 0 0}
 @media(max-width:760px){.simulation-gallery{padding:24px 22px}.simulations-heading{display:block}.simulations-intro{margin-top:10px;max-width:530px}.simulation-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:490px){.simulation-grid{grid-template-columns:1fr}.simulation-frame{aspect-ratio:1/1}.simulation-gallery{padding:22px 19px}}
+.experiment-card{margin-top:19px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);overflow:hidden;border:1px solid var(--border);border-radius:10px;background:#fff}
+.experiment-frame{background:#edf1f0;aspect-ratio:832/464}
+.experiment-video{display:block;width:100%;height:100%;object-fit:contain;background:#edf1f0}
+.experiment-detail{padding:26px 28px;align-self:center}
+.experiment-detail h3{font-size:20px;line-height:1.25;letter-spacing:-.025em;margin:8px 0 10px}
+.experiment-detail p:not(.small-caps){font-size:14px;line-height:1.6;color:var(--muted);margin:0 0 8px}
+.experiment-detail .experiment-note{font-size:12px}
+@media(max-width:760px){.experiment-card{grid-template-columns:1fr}.experiment-detail{padding:18px 19px 20px}}
