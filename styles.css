@@ -72,6 +72,9 @@ h1,h2,h3,h4,p{margin-top:0}
 .research-tags span+span{background:#f0f3f5;color:#647882}
 .featured-research h3{font-size:25px;line-height:1.3;letter-spacing:-.033em;max-width:605px;margin-bottom:20px}
 .featured-main>p{font-size:13px;color:var(--muted);max-width:615px}
+.research-links{margin-top:20px}
+.research-links a{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:650;color:#24616b;background:#e8f5f3;border:1px solid #cbdedf;border-radius:6px;padding:8px 13px;text-decoration:none;transition:background .2s}
+.research-links a:hover,.research-links a:focus-visible{background:#d8eeeb}
 .research-footer{border-top:1px solid var(--border);margin-top:26px;padding-top:16px;display:flex;justify-content:space-between;gap:10px;font-size:11px;color:#72838b}
 .research-visual{background:linear-gradient(165deg,#f3f8f8,#eaf3f3);border-left:1px solid #dbe7e8;padding:37px 25px 22px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
 .visual-label{font-size:10px;letter-spacing:.12em;color:#517780;font-weight:750;margin-bottom:35px}

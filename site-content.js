@@ -68,6 +68,7 @@ window.siteContent = {
   // Edit your social links here. Use the full URL copied from your LinkedIn profile.
   links: {
     github: "https://github.com/Yu1man",
+    force2act: "https://github.com/Yu1man/Force2Act",
     linkedin: "https://www.linkedin.com/in/karl-man-446462267"
   },
 
